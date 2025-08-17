@@ -65,5 +65,36 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    border-bottom: 2px solid #eee;
+  }
   
+  .logo {
+    height: 70px;
+    width: auto;
+  }
+  
+  .contact-buttons a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  
+  .call-button {
+    background: #0073e6;
+    color: white;
+  }
+  
+  .whatsapp-button {
+    background: #25D366;
+    color: white;
+  }
+   
   
